@@ -1,0 +1,13 @@
+Al ser escenarios de practicas no se utilizo el 100% del arquetipo de BP, por temas de confidencialidad de la información
+
+En el ejercicio expuesto como conclusión general, se concluye que las APIs REST también se pueden
+automatizar para así poder agilizar las pruebas de performance, es un punto favorable en el tiempo para
+la certificación de calidad del software y en la entrega del producto final al usuario experto.
+
+Los escenarios utilizados son Outline,con el fin de ejecutar varias pruebas con diferentes parámetros de
+esta manera se puede capturar los diferentes códigos de respuesta de la Api.
+
+En cada escenario se validaron para realizar un match entre la respuesta obtenida con la respuesta esperada para
+así poder una certeza que lo que devuelve la petición sea correcto
+
+Todas estas validaciones se pueden realizar en cada uno de los parametros expuestos en la trama o json.
