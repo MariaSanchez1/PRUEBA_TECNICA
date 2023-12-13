@@ -1,6 +1,6 @@
 #language: es
 
-  @Utest
+@Utest
 Característica: Registro de usuario
   Como Usuario quiero Realizar el registro de usuario en el aplicativo Utest,
   Para verificar el registro en el aplicativo
@@ -26,4 +26,5 @@ Característica: Registro de usuario
 
     Ejemplos:
       | nombre | apellido | correo            | mes | dia | year | lenguaje | ciudad | Cod_Postal | pais     | computador | version | lenguaje2 | diapositivo | modelo | sistema_operativo | contrasena  | confirmar_contrasena |
-      | Luis   | Torrez   | ltorrez@gmail.com | 10  | 23  | 1993 | Spanish  | Bogota | 110141     | Colombia | Windows    | 10      | Spanish   | Motorola    | W220   | Java ME           | 23@Angelica | 23@Angelica          |
+      | Luis   | Torrez   | ltorrez@gmail.com | May | 23  | 1993 | Spanish  | Bogota | 110141     | Colombia | Windows    | 10      | Spanish   | Motorola    | W220   | Java ME           | 23@Angelica | 23@Angelica          |
+
