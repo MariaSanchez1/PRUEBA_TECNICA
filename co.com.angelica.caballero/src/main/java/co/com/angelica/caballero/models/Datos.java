@@ -23,11 +23,11 @@ public class Datos {
     private String computador;
     private String version;
     private String lenguaje2;
-    private String dispositivos;
+    private String dispositivo;
     private String modelo;
     private String sistema_operativo;
-    private String contrasenna;
-    private String confirmar_contrasenna;
+    private String contrasena;
+    private String confirmar_contrasena;
 
     public static List<Datos> setDatos(DataTable dataTable) {
         List<Datos> dates = new ArrayList<>();

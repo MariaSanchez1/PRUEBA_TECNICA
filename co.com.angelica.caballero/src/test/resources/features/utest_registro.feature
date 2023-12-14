@@ -14,17 +14,17 @@ Característica: Registro de usuario
       | nombre   | apellido   | correo   | mes   | dia   | year   | lenguaje   |
       | <nombre> | <apellido> | <correo> | <mes> | <dia> | <year> | <lenguaje> |
     Y completa los datos de Direccion
-      | ciudad   | Cod_Postal   | pais   |
-      | <ciudad> | <Cod_Postal> | <pais> |
+      | ciudad   | cod_postal   | pais   |
+      | <ciudad> | <cod_postal> | <pais> |
     Y lleno los datos de mis los dispositivos
-      | computador   | version   | lenguaje2   | diapositivo   | modelo   | sistema_operativo   |
-      | <computador> | <version> | <lenguaje2> | <diapositivo> | <modelo> | <sistema_operativo> |
+      | computador   | version   | lenguaje2   | dispositivo   | modelo   | sistema_operativo   |
+      | <computador> | <version> | <lenguaje2> | <dispositivo> | <modelo> | <sistema_operativo> |
     Y lleno los datos de mi contrasenna
       | contrasena   | confirmar_contrasena   |
       | <contrasena> | <confirmar_contrasena> |
     Entonces Verificamos que se haya realizado el registro del usuario
 
     Ejemplos:
-      | nombre | apellido | correo            | mes | dia | year | lenguaje | ciudad | Cod_Postal | pais     | computador | version | lenguaje2 | diapositivo | modelo | sistema_operativo | contrasena  | confirmar_contrasena |
-      | Luis   | Torrez   | ltorrez@gmail.com | May | 23  | 1993 | Spanish  | Bogota | 110141     | Colombia | Windows    | 10      | Spanish   | Motorola    | W220   | Java ME           | 23@Angelica | 23@Angelica          |
+      | nombre | apellido | correo            | mes | dia | year | lenguaje | ciudad | cod_postal | pais     | computador | version | lenguaje2 | dispositivo | modelo | sistema_operativo | contrasena   | confirmar_contrasena |
+      | Luis   | Torrez   | ltorrez@gmail.com | May | 23  | 1993 | Spanish  | Bogota | 110141     | Colombia | Windows    | 10      | Spanish   | Motorola    | W220   | Java ME           | 23@LuisT2023 | 23@LuisT2023         |
 
