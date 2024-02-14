@@ -14,7 +14,7 @@ public class ManagementTestPrueba {
 
     @Test
     void testParallel(){
-        Results results =  Runner.path("classpath:PruebaNTTData").outputCucumberJson(true).parallel(2);
+        Results results =  Runner.path("classpath:PruebasApis").tags("@METODOPOST").outputCucumberJson(true).parallel(2);
         generateReport(results.getReportDir());
     }
 
